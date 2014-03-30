@@ -1,12 +1,4 @@
-flask-heroku-boilerplate
+roll-with-friends-client
 ========================
 
-Boilerplate code for Flask applications deployed on Heroku
-
-Recommended to set up virtualenv:
-
-    virtualenv venv
-
-Then install the required libraries:
-    
-    sudo pip install -r requirements.txt
+Client code for Roll with Friends made at HackPrinceton Spring 2014.
