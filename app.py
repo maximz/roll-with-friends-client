@@ -6,8 +6,4 @@ app.debug = True
 
 @app.route('/')
 def index():
-    return "Landing Page"
-
-@app.route('/submit', methods=['POST'])
-def submit():
-    return "Thanks for signing up!"
+    return render_template('index.html')
